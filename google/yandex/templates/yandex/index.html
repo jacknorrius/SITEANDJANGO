@@ -1,0 +1,23 @@
+{% extends 'yandex/base.html' %}
+
+{% block title %}
+Моя первая страница
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-2">БЛОК </div>
+
+        <div class="col animate__animated animate__fadeInLeftBig">
+        <h1>{{ title }}</h1>
+        <p>Добро пожаловать! <br>
+        текст текст текст текст</p>
+        <p class="text">сегодня 24 апреля 2023 года.</p>
+            <img src="https://www.ridus.ru/images/2020/4/22/1084774/in_article_f5c1d15724.jpg" width="100%">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/hvWkAMYV0dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+
+    {% endblock %}
